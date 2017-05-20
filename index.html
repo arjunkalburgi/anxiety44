@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>anxiety44</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+	<!-- ScrollMagic -->
+	<script src="http://scrollmagic.io/js/lib/greensock/TweenMax.min.js"></script>
+	<script src="http://scrollmagic.io/scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script src="http://scrollmagic.io/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+	<script src="http://scrollmagic.io/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
+	<script src="http://scrollmagic.io/js/lib/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+	<nav></nav>
+	<header>
+		<div style="height: 50vh;"></div>
+		<div id="trigga" class="spacer s0"></div>
+		<a id="logo" href="#" class="fixed">Anxiety</a>
+		<div style="height: 45vh;"></div>
+	</header>
+	<div class="spacer s2"></div>
+	<content>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<div class="spacer s2"></div>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<div class="spacer s2"></div>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</content>
+	<footer></footer>
+
+	<script>
+		var blurElement = {blur:0};//start the blur at 0 pixels
+		$(function () { // wait for document ready
+			// init controller
+			var controller = new ScrollMagic.Controller();
+
+			// build tween
+			var tween = TweenMax.to(blurElement, 1, {blur:50, onUpdate:applyBlur});
+			// var tween = TweenMax.to("#logo", 1, {rotation: 360, ease: Linear.easeNone});
+
+			// build scene
+			var scene = new ScrollMagic.Scene({triggerElement: "#trigga", duration: 300})
+							.setTween(tween)
+							.setPin("#logo", {pushFollowers: false})
+							// .addIndicators() // add indicators (requires plugin)
+							.addTo(controller);
+		})
+
+		function applyBlur() {
+			$('header a#logo').removeClass("fixed"); 
+		    TweenMax.set($('#logo'), {webkitFilter:"blur(" +blurElement.blur + "px)"});
+		};
+	</script>
+
+</body>
+</html>
