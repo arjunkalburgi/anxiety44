@@ -20,7 +20,16 @@
 
 </head>
 <body>
-	<nav></nav>
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">A44</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="sass.html">HOME</a></li>
+				<li><a href="badges.html">CONTACT</a></li>
+				<li><a href="collapsible.html">IG</a></li>
+			</ul>
+		</div>
+	</nav>
 	<header>
 		<div style="height: 50vh;"></div>
 		<div id="trigga" class="spacer s0"></div>
@@ -29,6 +38,8 @@
 	</header>
 	<div class="spacer s2"></div>
 	<content>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<div class="spacer s2"></div>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		<div class="spacer s2"></div>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -53,6 +64,11 @@
 							.setPin("#logo", {pushFollowers: false})
 							// .addIndicators() // add indicators (requires plugin)
 							.addTo(controller);
+
+			var tween2 = TweenMax.to("nav", 1, {css:{opacity:1}, ease: Power4.easeInOut})
+			var scene = new ScrollMagic.Scene({triggerElement: "content"})
+							.setTween(tween2)
+							.addTo(controller); 
 		})
 
 		function applyBlur() {
