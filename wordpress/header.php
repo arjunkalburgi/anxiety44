@@ -4,7 +4,7 @@
 	<title>anxiety44</title>
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/askalburgi/anxiety44/57c39e48/wordpress/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/askalburgi/anxiety44/master/wordpress/style.css">
 
 
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>

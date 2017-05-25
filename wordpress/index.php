@@ -19,12 +19,12 @@
 					<div class="entry clear">
 						<!-- <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?> -->
 						<?php the_content(); ?>
+						<!-- the_content() -->
 						<?php edit_post_link(); ?>
+						<!-- edit_post_link() -->
 						<?php wp_link_pages(); ?>
+						<!-- wp_link_pages() -->
 					</div><!--end entry-->
-					<div class="post-footer">
-						<!-- <div class="comments"><?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div> -->
-					</div><!--end post footer-->
 				</div><!--end post-->
 			<?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
 			<div class="navigation index">
