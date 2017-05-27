@@ -8,10 +8,12 @@ Author URI: www.arjunkalburgi.com
 */
 
 
+
 /* Nav bar */
 
 	nav {
 		color: black;
+		background: white; 
 		/*background-color: #ee6e73;*/
 		width: 100%;
 		height: 56px;
@@ -459,7 +461,7 @@ Author URI: www.arjunkalburgi.com
 		}
 		div.wp-caption p.wp-caption-text {
 			cursor: pointer;
-			position: absolute;
+			/*position: absolute;*/
 			opacity: 0;
 			/*top:300px;*/
 			-webkit-transition:all 0.15s ease-in-out;
@@ -476,13 +478,13 @@ Author URI: www.arjunkalburgi.com
 			top: 100%;
 		}
 
-
 	/* Image position */
 		div.wp-caption {
 			float: left;
 			margin: 0 auto;
 			padding: 15px;
 			min-width: 30%; 
+			text-align: center;
 		}
 		div.wp-caption:nth-child(3n) {
 			float: right;
@@ -498,6 +500,17 @@ Author URI: www.arjunkalburgi.com
 			margin: 0 auto;
 		}
 
+	/* Title */
+		.post-header {
+			text-align: center;
+		}
+		.post-header a {
+			color: black; 
+			text-decoration: none; 
+		}
+		.post-header a:hover {
+			text-decoration: underline;
+		}
 
 	/*--------------------------------------------------------------
 	11.0 Featured Image Hover
@@ -545,3 +558,8 @@ Author URI: www.arjunkalburgi.com
 			}
 
 /* Contacts */
+
+/* Body */
+	body {
+		background: white; 
+	}
