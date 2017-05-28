@@ -89,12 +89,6 @@ Author URI: www.arjunkalburgi.com
 		margin-right: 15px;
 	}
 
-	nav .nav-title {
-		display: inline-block;
-		font-size: 32px;
-		padding: 28px 0;
-	}
-
 	nav ul {
 		margin: 0;
 		float: right;
@@ -108,53 +102,25 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	nav ul li.active {
-	background-color: rgba(0, 0, 0, 0.1);
+		background-color: rgba(0, 0, 0, 0.1);
 	}
 
 	nav ul a {
-	transition: background-color .3s;
-	font-size: 1rem;
-	color: #fff;
-	display: block;
-	padding: 0 15px;
-	cursor: pointer;
-	}
-
-	nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
-	margin-top: -2px;
-	margin-left: 15px;
-	margin-right: 15px;
-	}
-
-	nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.btn-floating > .material-icons {
-	height: inherit;
-	line-height: inherit;
+		transition: background-color .3s;
+		font-size: 1rem;
+		color: #fff;
+		display: block;
+		padding: 0 15px;
+		cursor: pointer;
 	}
 
 	nav ul a:hover {
-	background-color: rgba(0, 0, 0, 0.1);
+		background-color: rgba(0, 0, 0, 0.1);
 	}
 
 	nav ul.left {
-	float: left;
+		float: left;
 	}
-
-	.navbar-fixed {
-	position: relative;
-	height: 56px;
-	z-index: 997;
-	}
-
-	.navbar-fixed nav {
-	position: fixed;
-	}
-
-	@media only screen and (min-width: 601px) {
-		.navbar-fixed {
-			height: 64px;
-		}
-	}
-
 
 /* Header */
 	header {
@@ -182,168 +148,6 @@ Author URI: www.arjunkalburgi.com
 		}
 		.spacer.s0 {
 			min-height: 1px;
-		}
-
-	/* mobile */
-		html.touch .menuwrap {
-			z-index: 999999;
-			box-sizing: content-box;
-			min-width: 0;
-			width: 100%;
-			margin: 0;
-			left: 0;
-			top: 0;
-			height: auto;
-			background-color: transparent;
-		}
-		html.touch ul#menu {
-			position: static;
-			margin: 100px 0 0 0;
-			text-align: center;
-			width: 100%;
-			left: 0;
-			display: none;
-		}
-		html.touch .menuwrap.open {
-			height: 100%;
-			background-color: rgba(255, 255, 255, 0.9);
-			overflow: scroll;
-		}
-		html.touch .menuwrap.open ul#menu {
-			display: block;
-		}
-
-		html.touch ul#menu > li {
-			display: block;
-			margin: 10px;
-			height: auto;
-		}
-		html.touch ul#menu ul {
-			margin-top: 10px;
-			padding-top: 10px;
-			border-top: 1px dashed white;
-		}
-		html.touch ul#menu li {
-			padding: 10px 0;
-		}
-		html.touch ul#menu li ul li{
-		}
-		html.touch ul#menu > li a {
-			color: #2e639e;
-			font-size: 4em;
-			line-height: 1.2em;
-		}
-		html.touch ul#menu ul li a {
-			font-size: 2.5em;
-			line-height: 1.2em;
-		}
-		html.touch ul#menu ul li a {
-		}
-		html.touch ul#menu ul {
-			display: block;
-		}
-		html.touch ul#menu ul li.current a {
-			background-color: transparent;
-		}
-		html.touch ul#menu ul li a:hover {
-			background-color: transparent;
-		}
-		html.touch ul#menu ul li a:active {
-			color: white;
-		}
-		html.touch .menuwrap > a.prev, html.touch .menuwrap > a.next, html.touch .menubtn {
-			width: 80px;
-			height: 80px;
-			border-radius: 40px;
-			top: 10px;
-			background-color: #3883d8;
-			color: white;
-			font-size: 4em;
-			line-height: 1.5em;
-		}
-		html.touch .menuwrap > a.prev:active, html.touch .menuwrap > a.next:active, html.touch .menubtn:active {
-			background-color: white;
-			color: #3883d8;
-			border: 2px solid #3883d8;
-		}
-		html.touch .menuwrap > a.prev {
-			margin-right: 70px;
-			padding-right: 10px; 
-		}
-		html.touch .menuwrap > a.next {
-			margin-left: 70px;
-			padding-left: 10px;
-		}
-		html.touch .menubtn {
-			padding: 0;
-			border: 0;
-			position: absolute;
-			left: 50%;
-			margin-left: -40px;
-			line-height: 0;
-			outline: none;
-
-			appearance: none;
-			-webkit-justify-content: center;
-			-ms-flex-pack: center;
-			justify-content: center;
-			-webkit-align-items: center;
-			-ms-flex-align: center;
-			align-items: center;
-			transition: 0.3s;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-		}
-		html.touch .menubtn:active .button-lines, html.touch .menubtn:active .button-lines::before, html.touch .menubtn:active .button-lines::after{
-			background: #3883d8;
-		}
-		html.touch .menubtn .button-lines, html.touch .menubtn .button-lines::before, html.touch .menubtn .button-lines::after {
-			display: inline-block;
-			height: 6px;
-			width: 35px;
-			border-radius: 4px;
-			transition: 0.3s;
-			background: #FFFFFF;
-			position: relative;
-			left: 0;
-			top: -5px;
-		}
-		html.touch .menubtn .button-lines::before, html.touch .menubtn .button-lines::after {
-			content: '';
-			position: absolute;
-		}
-		html.touch .menubtn .button-lines::before {
-			top: 12px;
-		}
-		html.touch .menubtn .button-lines::after {
-			top: -12px;
-		}
-		html.touch .menuwrap.open .menubtn .button-lines {
-			background: transparent;
-		}
-		html.touch .menuwrap.open .menubtn .button-lines::before {
-			top: 0px;
-			-o-transform: rotate3d(0, 0, 1, -45deg);
-			-moz-transform: rotate3d(0, 0, 1, -45deg);
-			-webkit-transform: rotate3d(0, 0, 1, -45deg);
-			transform: rotate3d(0, 0, 1, -45deg);
-			-o-transform-origin: 50% 50%;
-			-moz-transform-origin: 50% 50%;
-			-webkit-transform-origin: 50% 50%;
-			transform-origin: 50% 50%;
-		}
-		html.touch .menuwrap.open .menubtn .button-lines::after {
-			top: 0px;
-			-o-transform: rotate3d(0, 0, 1, 45deg);
-			-moz-transform: rotate3d(0, 0, 1, 45deg);
-			-webkit-transform: rotate3d(0, 0, 1, 45deg);
-			transform: rotate3d(0, 0, 1, 45deg);
-			-o-transform-origin: 50% 50%;
-			-moz-transform-origin: 50% 50%;
-			-webkit-transform-origin: 50% 50%;
-			transform-origin: 50% 50%;
 		}
 
 /* Content */
@@ -426,25 +230,6 @@ Author URI: www.arjunkalburgi.com
 			width: 34%; 
 			margin: 15px auto;
 		}
-
-	/*--------------------------------------------------------------
-	11.0 Featured Image Hover
-	--------------------------------------------------------------*/
-
-	.post-thumbnail {
-		margin-bottom: 1em;
-	}
-
-	.post-thumbnail a img {
-		-webkit-backface-visibility: hidden;
-		-webkit-transition: opacity 0.2s;
-		transition: opacity 0.2s;
-	}
-
-	.post-thumbnail a:hover img,
-	.post-thumbnail a:focus img {
-		opacity: 0.7;
-	}
 
 /* Footer */
 
