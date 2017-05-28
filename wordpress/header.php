@@ -5,9 +5,8 @@
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/askalburgi/anxiety44/master/wordpress/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/askalburgi/askalburgi.github.io/master/css/font-awesome.min.css">
 
-
-	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 	<!-- ScrollMagic -->
 	<script src="http://scrollmagic.io/js/lib/greensock/TweenMax.min.js"></script>
