@@ -11,24 +11,24 @@
 			var controller = new ScrollMagic.Controller();
 
 			// build tween
-			var tween = TweenMax.to(blurElement, 1, {blur:50, onUpdate:applyBlur});
+			var tween = TweenMax.to(blurElement, 1, {blur:50, onUpdate:applyBlur, ease: Power0.easeInOut});
 			// var tween = TweenMax.to("#logo", 1, {rotation: 360, ease: Linear.easeNone});
 
 			// build scene
 			var scene = new ScrollMagic.Scene({triggerElement: "#trigga", duration: 300})
 							.setTween(tween)
-							.setPin("#logo", {pushFollowers: false})
+							// .setPin("a#logo", {pushFollowers: false})
 							// .addIndicators() // add indicators (requires plugin)
 							.addTo(controller);
 
 			var tween2 = TweenMax.to("nav", 1, {css:{opacity:1}, ease: Power4.easeInOut})
-			var scene = new ScrollMagic.Scene({triggerElement: "content"})
+			var scene2 = new ScrollMagic.Scene({triggerElement: "content"})
 							.setTween(tween2)
 							.addTo(controller); 
 		})
 
 		function applyBlur() {
-			$('header a#logo').removeClass("fixed"); 
+			// $('header a#logo').removeClass("fixed"); 
 		    TweenMax.set($('#logo'), {webkitFilter:"blur(" +blurElement.blur + "px)"});
 		};
 	</script>

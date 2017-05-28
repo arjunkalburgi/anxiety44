@@ -11,11 +11,13 @@ Author URI: www.arjunkalburgi.com
 /* Body */
 	body {
 		background: white; 
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 
 	a {
 		color: black !important; 
-		transition: color 0.3s
+		transition: color 0.3s; 
+		text-decoration: none !important;
 	}
 
 	a:hover {
@@ -32,7 +34,7 @@ Author URI: www.arjunkalburgi.com
 		width: 100%;
 		height: 56px;
 		line-height: 56px;
-		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+		/*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);*/
 		display: block;
 		position: fixed;
 		left: 0px;
@@ -103,10 +105,14 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	nav ul li {
-		transition: background-color .3s;
+		/*transition: background-color .3s;*/
 		float: left;
 		padding: 0;
 		list-style-type: none;
+	}
+
+	nav ul li:last-of-type {
+		padding-right: 10px;
 	}
 
 	nav ul li.active {
@@ -114,7 +120,7 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	nav ul a {
-		transition: background-color .3s;
+		/*transition: background-color .3s;*/
 		font-size: 1rem;
 		color: #fff;
 		display: block;
@@ -123,7 +129,7 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	nav ul a:hover {
-		background-color: rgba(0, 0, 0, 0.1);
+		/*background-color: rgba(0, 0, 0, 0.1);*/
 	}
 
 	nav ul.left {
@@ -151,14 +157,25 @@ Author URI: www.arjunkalburgi.com
 		/*font-style: */
 		color: black; 
 	}
+	header a#logo:hover {
+		color: orange; 
+		filter: grayscale(0%);
+		-webkit-filter: grayscale(0%); 
+	}
+	header a#logo img {
+		width: 45%; 
+		transition: filter 0.3s;
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%); 
+	}
+	header a#logo:hover img {
+		filter: grayscale(0%);
+		-webkit-filter: grayscale(0%); 
+	}
 
 	.fixed {
 		position: fixed;
 		left: 48%;
-	}
-
-	header a#logo:hover {
-		color: orange; 
 	}
 
 	/* Containers */
