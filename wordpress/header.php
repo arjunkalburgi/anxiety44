@@ -23,11 +23,13 @@
 <body>
 	<nav>
 		<div class="nav-wrapper">
-			<a href="#" class="brand-logo">A44</a>
+			<a href="#" class="brand-logo">
+				<img src="http://www.anxiety44.com/wp-content/uploads/2017/05/cropped-ANXIETYlogoCENT.png">
+			</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="http://anxiety44.bigcartel.com/">STORE</a></li>
 				<li><a href="http://www.anxiety44.com/contact">CONTACT</a></li>
-				<li><a href="https://www.instagram.com/anxiety_44">IG</a></li>
+				<li><a href="https://www.instagram.com/anxiety_44"><i class="fa fa-instagram"></i></a></li>
 			</ul>
 		</div>
 	</nav>

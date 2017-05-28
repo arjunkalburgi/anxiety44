@@ -41,9 +41,7 @@ Author URI: www.arjunkalburgi.com
 		opacity: 0; 
 	}
 
-	nav i,
-	nav [class^="mdi-"], nav [class*="mdi-"],
-	nav i.material-icons {
+	nav i {
 		display: block;
 		font-size: 24px;
 		height: 56px;
@@ -95,11 +93,8 @@ Author URI: www.arjunkalburgi.com
 		padding: 0;
 	}
 
-	nav .brand-logo i,
-	nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
-	nav .brand-logo i.material-icons {
-		float: left;
-		margin-right: 15px;
+	nav .brand-logo img {
+		height: 56px; 
 	}
 
 	nav ul {
@@ -133,6 +128,18 @@ Author URI: www.arjunkalburgi.com
 
 	nav ul.left {
 		float: left;
+	}
+	
+	.fa {
+		display:inline-block;
+		font:normal normal normal 14px/1 FontAwesome;
+		font-size:inherit;
+		text-rendering:auto;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale; 
+	}
+	.fa-instagram:before{
+		content:"\f16d"; 
 	}
 
 /* Header */
