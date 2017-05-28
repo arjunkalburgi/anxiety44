@@ -8,6 +8,19 @@ Author URI: www.arjunkalburgi.com
 */
 
 
+/* Body */
+	body {
+		background: white; 
+	}
+
+	a {
+		color: black !important; 
+		transition: color 0.3s
+	}
+
+	a:hover {
+		color: orange !important; 
+	}
 
 /* Nav bar */
 
@@ -225,7 +238,7 @@ Author URI: www.arjunkalburgi.com
 		}
 
 	/* Text */
-		.entry p {
+		.entry > p {
 			text-align: center;
 			width: 34%; 
 			margin: 15px auto;
@@ -258,17 +271,3 @@ Author URI: www.arjunkalburgi.com
 			}
 
 /* Contacts */
-
-/* Body */
-	body {
-		background: white; 
-	}
-
-	a {
-		color: black !important; 
-		transition: color 0.3s
-	}
-
-	a:hover {
-		color: orange !important; 
-	}
