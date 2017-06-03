@@ -4,7 +4,7 @@
 	<title>anxiety44</title>
 	
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/askalburgi/anxiety44/master/wordpress/style.css">
+	<link rel="stylesheet" type="text/css" href="https://rawgit.com/askalburgi/anxiety44/master/wordpress/style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/askalburgi/askalburgi.github.io/master/css/font-awesome.min.css">
 
 
@@ -23,7 +23,7 @@
 	<nav>
 		<div class="nav-wrapper">
 			<a href="#" class="brand-logo">
-				<img src="http://www.anxiety44.com/wp-content/uploads/2017/05/cropped-ANXIETYlogoCENT.png">
+				<img src="http://www.anxiety44.com/wp-content/uploads/2017/06/Alogo.png">
 			</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="http://anxiety44.bigcartel.com/">STORE</a></li>

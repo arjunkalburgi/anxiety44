@@ -4,7 +4,7 @@
 	<title>anxiety44</title>
 	
 	<link rel="stylesheet" type="text/css" href="wordpress/style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/askalburgi/askalburgi.github.io/master/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://rawgit.com/askalburgi/askalburgi.github.io/master/css/font-awesome.min.css">
 
 	<!-- ScrollMagic -->
 	<script src="http://scrollmagic.io/js/lib/greensock/TweenMax.min.js"></script>
@@ -21,7 +21,7 @@
 	<nav>
 		<div class="nav-wrapper">
 			<a href="#" class="brand-logo">
-				<img src="http://www.anxiety44.com/wp-content/uploads/2017/05/cropped-ANXIETYlogoCENT.png">
+				<img src="http://www.anxiety44.com/wp-content/uploads/2017/06/Alogo.png">
 			</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="http://anxiety44.bigcartel.com/">STORE</a></li>
@@ -31,12 +31,12 @@
 		</div>
 	</nav>
 	<header>
-		<div style="height: 40vh;"></div>
+		<div style="height: 42vh;"></div>
 		<a id="logo" href="#">
 			<img src="http://www.anxiety44.com/wp-content/uploads/2017/05/ANXIETYbar.png">
 		</a>
 		<div id="trigga" class="spacer s0"></div>
-		<div style="height: 50vh;"></div>
+		<div style="height: 48vh;"></div>
 	</header>
 	<div class="spacer s2"></div>
 	<content>
@@ -82,10 +82,9 @@
 
 			// build tween
 			var tween = TweenMax.to(blurElement, 1, {blur:50, onUpdate:applyBlur, ease: Power0.easeInOut});
-			// var tween = TweenMax.to("#logo", 1, {rotation: 360, ease: Linear.easeNone});
 
 			// build scene
-			var scene = new ScrollMagic.Scene({triggerElement: "#trigga", duration: 300})
+			var scene = new ScrollMagic.Scene({triggerElement: "#trigga", duration: 350})
 							.setTween(tween)
 							// .setPin("a#logo", {pushFollowers: false})
 							// .addIndicators() // add indicators (requires plugin)
@@ -94,7 +93,7 @@
 			var tween2 = TweenMax.to("nav", 1, {css:{opacity:1}, ease: Power4.easeInOut})
 			var scene2 = new ScrollMagic.Scene({triggerElement: "content"})
 							.setTween(tween2)
-							.addTo(controller); 
+							.addTo(controller);
 		})
 
 		function applyBlur() {
@@ -102,6 +101,10 @@
 		    TweenMax.set($('#logo'), {webkitFilter:"blur(" +blurElement.blur + "px)"});
 		};
 	</script>
+
+	<style type="text/css">
+		/*#trigga { background: aquamarine; }*/
+	</style>
 
 </body>
 </html>
