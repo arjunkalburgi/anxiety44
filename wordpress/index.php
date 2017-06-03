@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
 	<header>
-		<div style="height: 40vh;"></div>
+		<div class="beforelogo"></div>
 		<a id="logo" href="#">
 			<img src="http://www.anxiety44.com/wp-content/uploads/2017/05/ANXIETYbar.png">
 		</a>
 		<div id="trigga" class="spacer s0"></div>
-		<div style="height: 50vh;"></div>
+		<div class="afterlogo"></div>
 	</header>
 	<div class="spacer s2"></div>
 	<content>

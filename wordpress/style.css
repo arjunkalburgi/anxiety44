@@ -1,5 +1,5 @@
 /*
-Theme Name: Anxiety44 Mock 1v1.8 
+Theme Name: Anxiety44 Mock 1v1.8f1 
 Theme URI: anxiety44.com
 Description: anxiety theme made for Harkit Singh 
 Version: 1.8
@@ -74,26 +74,6 @@ Author URI: www.arjunkalburgi.com
 		-webkit-transform: translateX(-50%);
 	    transform: translateX(-50%);
 	}
-
-	/*@media only screen and (max-width: 992px) {
-		nav .brand-logo {
-			left: 50%;
-			-webkit-transform: translateX(-50%);
-	        transform: translateX(-50%);
-		}
-		nav .brand-logo.left, nav .brand-logo.right {
-			padding: 0;
-			-webkit-transform: none;
-	        transform: none;
-		}	
-		nav .brand-logo.left {
-			left: 0.5rem;
-		}
-		nav .brand-logo.right {
-			right: 0.5rem;
-			left: auto;
-		}
-	}*/
 
 	nav .brand-logo.right {
 		right: 0.5rem;
@@ -178,6 +158,13 @@ Author URI: www.arjunkalburgi.com
 	.fixed {
 		position: fixed;
 		left: 48%;
+	}
+
+	header .beforelogo {
+		height: 42vh; 
+	}
+	header .afterlogo {
+		height: 48vh; 
 	}
 
 	/* Containers */
