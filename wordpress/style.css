@@ -81,12 +81,18 @@ Author URI: www.arjunkalburgi.com
 		height: 100%;
 	}
 
-	nav .brand-logo {
+	nav a.brand-logo {
 		position: absolute;
 		color: #fff;
 		display: inline-block;
-		padding: 0px 10px;
-		white-space: nowrap;
+		margin: 0px 10px;
+		width: 2rem !important;
+		height: 100%;
+		vertical-align: middle;
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/AlogoBlackREG.png"); 
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
 	nav .brand-logo.center {
@@ -100,13 +106,8 @@ Author URI: www.arjunkalburgi.com
 		padding: 0;
 	}
 
-	nav .brand-logo img {
-		/* hover effects are in the header section */
-		max-height: 56px; 
-		width: 2rem !important;
-		height: 100%;
-		vertical-align: middle;
-		padding: 0 10px; 
+	nav a.brand-logo:hover {
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/Alogo.png")
 	}
 
 	nav ul {
@@ -160,19 +161,18 @@ Author URI: www.arjunkalburgi.com
 	header a#logo {
 		color: black; 
 	}
-	header a#logo img {
-		/*width: 25%; */
-		height: 7vh; 
-		vertical-align: super;
+	header a#logo {
+		width: 50vw; 
+		height: 7vh;
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/BlacklogoI.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin: auto;
+		display: block;
 	}
-	header a#logo img, nav a.brand-logo img {
-		transition: filter 0.3s;
-		filter: grayscale(100%);
-		-webkit-filter: grayscale(100%); 
-	}
-	header a#logo:hover img, nav a.brand-logo img:hover {
-		filter: grayscale(0%);
-		-webkit-filter: grayscale(0%);
+	header a#logo:hover {
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/05/ANXIETYbar.png"); 
 	}
 
 	.fixed {
@@ -181,7 +181,7 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	header .beforelogo {
-		height: 42vh; 
+		height: 43vh; 
 	}
 	header .afterlogo {
 		height: 48vh; 

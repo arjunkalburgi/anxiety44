@@ -2,9 +2,7 @@
 
 	<header>
 		<div class="beforelogo"></div>
-		<a id="logo" href="#">
-			<img src="http://www.anxiety44.com/wp-content/uploads/2017/05/ANXIETYbar.png">
-		</a>
+		<a id="logo" href="#"></a>
 		<div id="trigga" class="spacer s0"></div>
 		<div class="afterlogo"></div>
 	</header>

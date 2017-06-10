@@ -21,9 +21,7 @@
 <body>
 	<nav>
 		<div class="nav-wrapper">
-			<a href="http://www.anxiety44.com" class="brand-logo">
-				<img src="http://www.anxiety44.com/wp-content/uploads/2017/06/Alogo.png">
-			</a>
+			<a href="http://www.anxiety44.com" class="brand-logo"></a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="http://anxiety44.bigcartel.com/">STORE</a></li>
 				<li><a href="http://www.anxiety44.com/contact">CONTACT</a></li>
