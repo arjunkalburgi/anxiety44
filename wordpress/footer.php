@@ -5,7 +5,7 @@
 	</footer>
 
 	<script>
-		var blurElement = {blur:0};//start the blur at 0 pixels
+		var blurElement = {blur:10};//start the blur at 0 pixels
 		$(function () { // wait for document ready
 			// init controller
 			var controller = new ScrollMagic.Controller();

@@ -107,7 +107,7 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	nav a.brand-logo:hover {
-		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/Alogo.png")
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/Alogo.png");
 	}
 
 	nav ul {
@@ -170,8 +170,10 @@ Author URI: www.arjunkalburgi.com
 		background-position: center;
 		margin: auto;
 		display: block;
+		transition: filter 0.2s
 	}
 	header a#logo:hover {
+		filter: blur(0px) !important;
 		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/05/ANXIETYbar.png"); 
 	}
 
