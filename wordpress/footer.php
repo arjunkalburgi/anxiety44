@@ -5,7 +5,7 @@
 	</footer>
 
 	<script>
-		var blurElement = {blur:10};//start the blur at 0 pixels
+		var blurElement = {blur:0};//start the blur at 0 pixels
 		$(function () { // wait for document ready
 			// init controller
 			var controller = new ScrollMagic.Controller();
@@ -33,5 +33,11 @@
 		};
 	</script>
 
+	<script type="text/javascript">
+		if (window.location.href != "http://www.anxiety44.com/" && window.location.href != "file:///Users/insanekillah/projects/anxiety44/index.html") {
+			$("header").css("display", "none"); 
+		}
+	</script>
+	
 </body>
 </html>

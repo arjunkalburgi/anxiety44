@@ -1,5 +1,5 @@
 /*
-Theme Name: Anxiety44 Mock 1v1.8f4
+Theme Name: Anxiety44 Mock 1v1.9f1
 Theme URI: anxiety44.com
 Description: anxiety theme made for Harkit Singh 
 Version: 1.8
@@ -28,7 +28,7 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	a:hover {
-		color: orange !important; 
+		color: #F16C13 !important; 
 		}
 
 		::-webkit-scrollbar {
@@ -162,19 +162,21 @@ Author URI: www.arjunkalburgi.com
 		color: black; 
 	}
 	header a#logo {
-		width: 50vw; 
+		width: 30vw; 
 		height: 7vh;
-		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/BlacklogoI.png");
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/WordHPblack.png");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin: auto;
 		display: block;
-		transition: filter 0.2s
+		transition: all 0.3s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
+
 	}
 	header a#logo:hover {
 		filter: blur(0px) !important;
-		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/05/ANXIETYbar.png"); 
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/WordHP.png"); 
 	}
 
 	.fixed {
@@ -234,7 +236,7 @@ Author URI: www.arjunkalburgi.com
 			-ms-transition:all 0.3s ease-in-out;
 			transition:all 0.3s ease-in-out;
 			z-index: 10;
-			color: orange;
+			color: #F16C13;
 			/*position: absolute;*/
 			/*width: 400px;*/
 			/*height: 75%;*/
@@ -275,7 +277,7 @@ Author URI: www.arjunkalburgi.com
 	/* Text */
 		.entry > p {
 			text-align: center;
-			width: 34%; 
+			/*width: 34%; */
 			margin: 15px auto;
 		}
 
@@ -285,6 +287,9 @@ Author URI: www.arjunkalburgi.com
 		margin: 3em 0 3em 0;
 		font-size: 0.6em;
 		text-align: center;
+		position: absolute;
+		bottom: 0px; 
+		width: 100%; 
 	}
 
 	footer ul.menu {
@@ -344,7 +349,7 @@ Author URI: www.arjunkalburgi.com
 			
 			content .post .post-header a {
 				text-decoration: none; 
-				color: orange !important;  
+				color: #F16C13 !important;  
 			}
 
 			content .post div.entry {
