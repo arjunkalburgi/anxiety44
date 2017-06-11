@@ -245,17 +245,17 @@ Author URI: www.arjunkalburgi.com
 		}
 
 	/* Image position */
-		div.wp-caption {
+		div.wp-caption, .entry p a {
 			float: left;
 			margin: 0 auto;
 			padding: 15px;
 			min-width: 30%; 
 			text-align: center;
 		}
-		div.wp-caption:nth-child(3n) {
+		div.wp-caption:nth-child(3n), .entry p a:nth-child(3n) {
 			float: right;
 		}
-		div.wp-caption:last-of-type {
+		div.wp-caption:last-of-type, .entry p a:last-of-type {
 			float: none !important;
 		}
 		.post {
@@ -287,7 +287,8 @@ Author URI: www.arjunkalburgi.com
 		margin: 3em 0 3em 0;
 		font-size: 0.6em;
 		text-align: center;
-		position: absolute;
+		/*position: static;*/
+		padding-top: 50px; 
 		bottom: 0px; 
 		width: 100%; 
 	}
@@ -311,7 +312,8 @@ Author URI: www.arjunkalburgi.com
 			}
 
 /* Mobile */
-    @media only screen and (max-width: 930px) {
+    @media only screen and (max-width: 630px) {
+    /*@media only screen and (max-width: 930px) {*/
 
     	/* Body 
     		body, nav ul a {

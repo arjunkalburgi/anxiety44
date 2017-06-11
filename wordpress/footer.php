@@ -36,8 +36,9 @@
 	<script type="text/javascript">
 		if (window.location.href != "http://www.anxiety44.com/" && window.location.href != "file:///Users/insanekillah/projects/anxiety44/index.html") {
 			$("header").css("display", "none"); 
+			$("footer").css("display", "none"); 
 		}
 	</script>
-	
+
 </body>
 </html>
