@@ -1,6 +1,6 @@
 	<footer>
 		<ul class="menu">
-			<li>© Anxiety. All rights reserved.</li><li>Website courtesy of <a href="www.arjunkalburgi.com">Arjun Kalburgi</a></li>
+			<li>© Anxiety. All rights reserved.</li><li>Website courtesy of <a href="http://www.arjunkalburgi.com">Arjun Kalburgi</a></li>
 		</ul>
 	</footer>
 
