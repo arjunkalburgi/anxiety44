@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="https://rawgit.com/askalburgi/anxiety44/master/wordpress/style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/askalburgi/askalburgi.github.io/master/css/font-awesome.min.css">
 
+	<link rel="icon" href="http://www.anxiety44.com/wp-content/uploads/2017/06/AlogoForSiteBlack.png">
 
 	<!-- ScrollMagic -->
 	<script src="http://scrollmagic.io/js/lib/greensock/TweenMax.min.js"></script>

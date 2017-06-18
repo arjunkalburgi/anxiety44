@@ -89,7 +89,7 @@ Author URI: www.arjunkalburgi.com
 		width: 2rem !important;
 		height: 100%;
 		vertical-align: middle;
-		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/AlogoBlackREG.png"); 
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/AlogoForSiteBlack.png"); 
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -107,7 +107,7 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	nav a.brand-logo:hover {
-		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/Alogo-1.png");
+		background-image: url("http://www.anxiety44.com/wp-content/uploads/2017/06/AlogoForSite.png");
 	}
 
 	nav ul {
@@ -170,8 +170,8 @@ Author URI: www.arjunkalburgi.com
 		background-position: center;
 		margin: auto;
 		display: block;
-		transition: all 0.3s ease-in-out;
-		-webkit-transition: all 0.3s ease-in-out;
+		/*transition: filter 0.3s ease-in-out;*/
+		/*-webkit-transition: filter 0.3s ease-in-out;*/
 
 	}
 	header a#logo:hover {
@@ -185,7 +185,7 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	header .beforelogo {
-		height: 43vh; 
+		height: 44vh; 
 	}
 	header .afterlogo {
 		height: 48vh; 
