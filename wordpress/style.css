@@ -269,9 +269,11 @@ Author URI: www.arjunkalburgi.com
 	/* Title */
 		.post-header {
 			text-align: center;
+			display: none;
 		}
 		.post-header a {
 			text-decoration: none; 
+			pointer-events: none; /* DEL THIS TO CLICK TO POSTS *?
 		}
 
 	/* Text */
