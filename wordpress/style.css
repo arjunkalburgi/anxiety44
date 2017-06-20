@@ -266,6 +266,12 @@ Author URI: www.arjunkalburgi.com
 			margin: 0 auto;
 		}
 
+	/* Videos */
+		.entry > p iframe {
+			width: 800px; 
+			height: 450px; 
+		}
+
 	/* Title */
 		.post-header {
 			text-align: center;
