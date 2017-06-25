@@ -1,8 +1,8 @@
 /*
-Theme Name: Anxiety44 Mock 1v1.9f6
+Theme Name: Anxiety44 Mock 1v1.10f1
 Theme URI: anxiety44.com
 Description: anxiety theme made for Harkit Singh 
-Version: 1.9.6
+Version: 1.10.1
 Author: Arjun Kalburgi
 Author URI: www.arjunkalburgi.com
 */
@@ -22,16 +22,16 @@ Author URI: www.arjunkalburgi.com
 	}
 
 	a {
-		color: black !important; 
+		color: black; 
 		transition: color 0.3s; 
 		text-decoration: none !important;
 	}
 
 	a:hover {
 		color: #F16C13 !important; 
-		}
+	}
 
-		::-webkit-scrollbar {
+	::-webkit-scrollbar {
 	    width: 2px;
 	}
 	 
@@ -279,6 +279,9 @@ Author URI: www.arjunkalburgi.com
 		.post-header a {
 			text-decoration: none; 
 			pointer-events: none; /* DEL THIS TO CLICK TO POSTS */
+		}
+		.postheader h2:hover a {
+			color: #F16C13 !important; 
 		}
 
 	/* Text */
