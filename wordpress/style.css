@@ -280,7 +280,7 @@ Author URI: www.arjunkalburgi.com
 			text-decoration: none; 
 			pointer-events: none; /* DEL THIS TO CLICK TO POSTS */
 		}
-		.postheader h2:hover a {
+		.post-header h2:hover a {
 			color: #F16C13 !important; 
 		}
 
