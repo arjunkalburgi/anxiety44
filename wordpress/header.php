@@ -17,7 +17,7 @@
 
 	<script src="http://scrollmagic.io/js/lib/jquery.min.js"></script>
 
-
+	<?php wp_head();?>
 
 </head>
 <body>
